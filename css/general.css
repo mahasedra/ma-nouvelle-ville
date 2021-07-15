@@ -1,0 +1,49 @@
+@font-face {
+	font-family: "FlinkBold";
+	src: url(../fonts/FlinkBold.otf);
+}
+
+@font-face {
+	font-family: "FlinkRegular";
+	src: url(../fonts/FlinkRegular.otf);
+}
+
+html,
+body,
+ul,
+button,
+h1,
+h2,
+h3,
+input {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.body {
+	position: relative;
+}
+
+ul,
+li {
+	list-style-type: none;
+}
+
+* {
+	font-family: "FlinkRegular";
+}
+
+.bold {
+	font-family: "FlinkBold";
+}
+
+.icon-type {
+	margin-left: 5px;
+	margin-right: 5px;
+}

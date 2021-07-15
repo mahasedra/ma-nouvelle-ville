@@ -1,0 +1,11 @@
+{
+	"name": "template2",
+	"version": "1.0.0",
+	"main": "index.html",
+	"author": "Vito",
+	"license": "MIT",
+	"private": true,
+	"devDependencies": {
+		"prettier": "^2.3.2"
+	}
+}

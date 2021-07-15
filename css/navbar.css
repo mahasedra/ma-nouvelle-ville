@@ -1,0 +1,144 @@
+.navbar {
+	width: 100%;
+	opacity: 1;
+	position: fixed;
+	z-index: 13;
+	transition: all 0.2s ease-out;
+}
+
+.navbar--scrolled {
+	background: white;
+	z-index: 1346159;
+	box-shadow: 0px 0px 1px black;
+}
+
+.nav-icon {
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+.navbar__top {
+	height: 20%;
+	display: flex;
+	justify-content: center;
+	padding-top: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+	.navbar__top {
+		display: none;
+	}
+}
+
+.navbar__bottom {
+	display: flex;
+	justify-content: center;
+}
+
+.nav-box {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.nav-bottom-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.top-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 5px;
+}
+
+.top-container li {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.logo {
+	color: white;
+	width: 220px;
+	display: flex;
+	align-items: center;
+	margin-left: 50px;
+}
+
+@media screen and (max-width: 450px) {
+	.logo {
+		width: 150px;
+		margin-left: 10px;
+	}
+}
+
+.logo .orange-title {
+	color: #fc8229;
+}
+
+.nav__ul {
+	display: flex;
+	width: 70%;
+	justify-content: space-between;
+	color: white;
+	text-align: center;
+	align-items: center;
+}
+
+.nav__li {
+	color: rgb(20, 20, 20);
+}
+
+.active {
+	color: #fe7813;
+}
+
+.nav__ul .box {
+	display: flex;
+}
+
+.box__icon {
+	margin-right: 10px;
+}
+.nav__icon-container {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+	width: 40px;
+	border: 3px solid #fe7813;
+	border-radius: 50%;
+	margin-right: 50px;
+}
+
+@media screen and (max-width: 450px) {
+	.nav__icon-container {
+		margin-right: 10px;
+	}
+}
+
+.n__bar {
+	color: #fe7813;
+	font-size: 12pt;
+}
+
+@media screen and (max-width: 1100px) {
+	.navbar .top-container {
+		justify-content: space-around;
+	}
+	.navbar .nav-box {
+		width: 100%;
+		justify-content: space-between;
+	}
+	.nav__ul {
+		display: none;
+	}
+	.nav__icon-container {
+		display: flex;
+	}
+}
